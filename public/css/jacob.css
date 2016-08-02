@@ -1,0 +1,64 @@
+.btn{
+  border: 0px outset #ef6644;
+  border-radius: 0px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.btn-primary {
+  color: ##ef6644;
+  background-color: #ef6644;
+  border-color: #ef6644;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #ef6655;
+  border-color: #ef6644;
+}
+
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #ef6644;
+  border-color: #ef6644;
+}
+
+.btn-primary:active:hover,
+.btn-primary.active:hover,
+.open > .dropdown-toggle.btn-primary:hover,
+.btn-primary:active:focus,
+.btn-primary.active:focus,
+.open > .dropdown-toggle.btn-primary:focus,
+.btn-primary:active.focus,
+.btn-primary.active.focus,
+.open > .dropdown-toggle.btn-primary.focus {
+  color: #fff;
+  background-color: #ef6644;
+  border-color: #ef6644;
+}
+
+
+.shop-btn{
+
+    color: #fff;
+    background-color: #ef6644;
+    border-color: #ef6644;
+}
+
+.weight-btn{
+    color: #fff;
+    background-color: #ccc;
+    border-color: #ccc;
+}
+
+.product-title{
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #000;
+}
