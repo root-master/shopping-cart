@@ -8,10 +8,10 @@
     Version: 1.0
 
 -----------------------------------------------------------------------------------
-    
+
     CSS INDEX
     ===================
-	
+
     [ 1. Theme default CSS ] (body, link color, section etc)
 	[ 2. home version one ]
 	[ 3. home version two ]
@@ -26,7 +26,7 @@
 	[ 12. blog-details ]
 	[ 13. single product ]
 	[ 14. about us ]
-	
+
 -----------------------------------------------------------------------------------*/
 
 /*-------------------------------------
@@ -465,7 +465,7 @@ ul.drop-setting li,.mainmenu ul li ul li {
 	width: 0;
 }
 .mainmenu a:hover {
-  color:#ef6644; 
+  color:#ef6644;
 }
 .mainmenu li:hover a::after ,.mainmenu ul > li > a.active::after,.product-tab li a:hover::after,.product-tab li.active a::after{
     width: 100%;
@@ -679,8 +679,8 @@ p.title0 {
   color: #fff;
 }
 a.min1 {
-  border: 1px solid #fff;
-  color: #fff;
+  border: 1px solid #ef6644;
+  color: #ef6644;
   font-size: 12px;
   font-weight: bold;
   line-height: 72px;
@@ -862,7 +862,7 @@ i.pe-7s-back {transform: rotateY(-180deg);}
   right: 0;
   text-align: center;
   z-index: 1;
-    
+
 }
 .actions-btn > a,.tooltip > .tooltip-inner,.single-blog .actions-btn > span,.top-action-btn a {
     background: #666 none repeat scroll 0 0;
@@ -884,7 +884,7 @@ i.pe-7s-back {transform: rotateY(-180deg);}
     margin-left: 0;
     opacity: 1;
     transform: perspective(600px) rotateX(0deg) !important;
-    
+
 }
 .tooltip > .tooltip-inner{
     background: #ef6644 none repeat scroll 0 0;
@@ -920,7 +920,7 @@ i.pe-7s-back {transform: rotateY(-180deg);}
   visibility: hidden;
   width: 100%;
   z-index: 1;
-  
+
 }
 .single-product:hover a::before, .banner-box:hover a::before, .blog-container-inner:hover a::before, .sale-curosel1:hover a::before, .li-item:hover .re-img a::before  {
   opacity: .3;
@@ -959,7 +959,7 @@ i.pe-7s-back {transform: rotateY(-180deg);}
   position: absolute;
   top: 0;
   transition: all 0.4s ease 0s;
-    
+
 }
 .single-product:hover .secondary-image {
   opacity: 1;
@@ -1851,7 +1851,7 @@ a.clear-all {
   position: relative;
 }
 .top-shop-sidebar.sim > a.blog8:hover {
-  background: #ef6644 none repeat scroll 0 0; 
+  background: #ef6644 none repeat scroll 0 0;
   border-color: #ef6644;
   color: #fff;
 }
@@ -1880,7 +1880,7 @@ a.clear-all {
 .tb-content-inner.an-inner > h3 {
   font-size: 20px;
 }
-.products-page .tb-content-inner.an-inner > h5 { 
+.products-page .tb-content-inner.an-inner > h5 {
   color: #3a3a3a;
   font-size: 14px;
   font-weight: 300;
@@ -2019,7 +2019,7 @@ a.clear-all {
 }
 .products-page .li-item .tb-product-btn a:hover{
   background: #ef6644 none repeat scroll 0 0;
-  
+
 }
 .products-page .li-item .tb-product-btn a i {
   line-height: 35px;
@@ -2085,7 +2085,7 @@ a.clear-all {
     vertical-align: middle;
 }
 .shop6 select {
-    width: 180px; 
+    width: 180px;
 }
 .shop-all-tab .sort-by  .shop6 a {
     color: #2b2b2b;
@@ -2139,7 +2139,7 @@ a.clear-all {
     font-size: 18px;
 }
 .features-tab ul li a:hover{
-    color: #ef6644; 
+    color: #ef6644;
 }
 .features-tab ul li.active-icon a{
     color: #EE4A42;
