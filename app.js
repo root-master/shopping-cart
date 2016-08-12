@@ -11,7 +11,9 @@ var routes = require('./routes/index');
 
 var app = express();
 
-mongoose.connect('localhost:27017/shopping');
+// connect to mongo function
+mongoose.Promise = global.Promise;
+mongoose.connect('localhost:27017/flowers');
 
 // view engine setup
 app.engine('.hbs', expressHbs({defaultLayout: 'layout', extname: '.hbs'}))

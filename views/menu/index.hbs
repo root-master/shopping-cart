@@ -23,7 +23,7 @@
                             </div>
                             <!-- layer 3 -->
                             <div class="layer-3">
-                                <a class="min1" href="#">Online Delivery</a>
+                                <a class="min1" href="#">Online Order</a>
                             </div>
                         </div>
                     </div>
@@ -43,7 +43,7 @@
                             </div>
                             <!-- layer 3 -->
                             <div class="layer-3">
-                                <a class="min1" href="#">Online Delivery</a>
+                                <a class="min1" href="#">Online Order</a>
                             </div>
                         </div>
                     </div>
@@ -71,7 +71,7 @@
 
 
         <div class="row">
-					<div class="col-xs-12">
+					<div class="col-xs-12 col-sm-6">
 						<div class="product-tab nav nav-tabs">
 							<ul>
 								<li class="active"><a data-toggle="tab" href="#all">all shop</a></li>
@@ -82,64 +82,58 @@
 							</ul>
 						</div>
 					</div>
-				</div>
+				</div><br></br>
 
 
-        <div class="row tab-content">
-					<div class="tab-pane  fade in active" id="all">
-						<div id="tab-carousel-1" class="re-owl-carousel owl-carousel product-slider owl-theme">
+        <div class="row">
+					<div class="tab-pane active" id="all">
 
 
-              <div class="col-xs-12">
-								<div class="single-product">
-                                    <div class="product-img">
-                                        <div class="pro-type">
+            {{# each flowers}}
+             <div class="col-xs-12 col-sm-6">
+              <div class="single-product">
+                                  <div class="product-img">
+                                      <div class="pro-type">
+                                      </div>
+
+                                      <a href="#quick-view">
+                                          <img src="{{ this.image1Path }}" alt="Product" >
+                                          <img class="secondary-image" alt="Product Title" src="{{ this.image2Path }}">
+                                      </a>
+                                  </div>
+                                  <div class="product-dsc">
+                                      <a class="product-title" href="#"><h3>{{this.title}}</h3></a>
+
+
+                                      <div class="price-star">
+                                        <div class="btn-group" data-toggle="buttons">
+                                            <label class="btn weight-btn btn-primary active">
+                                              <input type="radio" name="options" id="option1" autocomplete="off" checked> 1/8 oz <br> ${{this.eighthPrice}} </br>
+                                            </label>
+                                            <label class="btn weight-btn btn-primary">
+                                              <input type="radio" name="options" id="option2" autocomplete="off"> 1/4 oz <br> ${{this.fourthPrice}} </br>
+                                            </label>
                                         </div>
 
-                                        <a href="#">
-                                            <img src="img/Jah1.jpg" alt="Product" />
-                                            <img class="secondary-image" alt="Product Title" src="img/Jah2.jpg">
-                                        </a>
-                                    </div>
-                                    <div class="product-dsc">
-                                        <a class="product-title" href="#"><h3>Jah Cookies</h3></a>
-
-
-                                        <div class="price-star">
-                                          <div class="btn-group" data-toggle="buttons">
-                                              <label class="btn weight-btn btn-primary active">
-                                                <input type="radio" name="options" id="option1" autocomplete="off" checked> 1/8 oz <br> $60 </br>
-                                              </label>
-                                              <label class="btn weight-btn btn-primary">
-                                                <input type="radio" name="options" id="option2" autocomplete="off"> 1/4 oz <br> $120 </br>
-                                              </label>
-                                          </div>
-
-                                          <div class="btn shop-btn" href="#">ADD TO CART</div>
-                                        </div>
-
-
+                                        <div class="btn shop-btn" href="#">ADD TO CART</div><br></br><br></br>
+                                      </div>
                                     </div>
 
 
 
-                                    <div class="actions-btn">
-                                        <a href="#" data-placement="top" data-target="#quick-view" data-trigger="hover" data-toggle="modal" data-original-title="Quick View"><i class="fa fa-eye"></i></a>
-                                        <a href="#" data-toggle="tooltip" data-placement="top" title="Add To Cart"><i class="fa fa-shopping-cart"></i></a>
-                                    </div>
-                  </div>
-              </div>
-							<!-- single product end -->
+                                  <div class="actions-btn">
+                                      <a href="#" data-placement="top" data-target="#quick-view" data-trigger="hover" data-toggle="modal" data-original-title="Quick View"><i class="fa fa-eye"></i></a>
+                                      <a href="#" data-toggle="tooltip" data-placement="top" title="Add To Cart"><i class="fa fa-shopping-cart"></i></a>
+                                  </div>
+                </div>
+             </div>
+            <!-- single product end -->
+            {{/each}}
 
 
-
-
-      <!-- all shop product end -->
-							<!-- single product end -->
-						</div>
+            </div>
 					</div>
         </div>
-      </div>
 </section>
 
 
@@ -173,7 +167,7 @@
                                 </div>
                                 <div class="visual-inner">
                                     <h2 class="blog-title">
-                                        <a href=""> Hempcon Summer Games</a>
+                                        <a href="http://hempcon.com/hempcons-investment-fair"> Hempcon Summer Games</a>
                                     </h2>
                                     <div class="blog-meta">
                                         <span class="post-category">
@@ -194,7 +188,6 @@
 
 
 
-          </div>
 				</div>
 			</div>
 </section>
