@@ -1364,6 +1364,7 @@ a.dec.qtybutton {padding-top: 3px;}
 .brand-logo .owl-buttons {position: relative;}
 .brand-logo .owl-buttons .owl-next,.brand-logo .owl-buttons .owl-prev {
   position: absolute;
+  
 }
 .brand-logo .owl-buttons .owl-prev {
   left: -25px;
