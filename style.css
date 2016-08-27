@@ -121,7 +121,7 @@ hr.line {
 .clear{clear:both}
 body {
 	font-family: 'Poppins', sans-serif;
-	color:#666666;
+	color:#000;
 	font-size:13px;
 	font-weight:400;
 }
@@ -1364,7 +1364,7 @@ a.dec.qtybutton {padding-top: 3px;}
 .brand-logo .owl-buttons {position: relative;}
 .brand-logo .owl-buttons .owl-next,.brand-logo .owl-buttons .owl-prev {
   position: absolute;
-  
+
 }
 .brand-logo .owl-buttons .owl-prev {
   left: -25px;
@@ -4677,6 +4677,9 @@ h2.page-title {
   height: 17px;
   width: 17px;
 }
+
+
+
 
 /*====================================================================
 							[ END ]
