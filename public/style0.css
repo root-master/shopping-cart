@@ -448,7 +448,8 @@ ul.drop-setting li,.mainmenu ul li ul li {
     color: #fff !important
 }
 /* header bottom */
-.logo {padding: 13px 0;}
+.logo {padding: 13px 0;
+float: left;}
 /* mainmenu */
 .mainmenu a {
   display: block;
