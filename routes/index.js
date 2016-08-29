@@ -5,7 +5,7 @@ var router = express.Router();
 /* GET home page. */
 router.get('/', function(req, res, next) {
   //Flowers.find(function(err,docs){
-    res.render('menu/index', { title: 'Jahnetics'});
+    res.render('menu/index', { title: 'JAHnetics'});
   //});
 });
 
